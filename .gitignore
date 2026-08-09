@@ -1,0 +1,21 @@
+# Secrets and credentials
+.env
+*.key
+*.pem
+**/*token*
+**/*secret*
+**/credentials*
+
+# Caches and generated files
+.cache/
+.cache
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor temporary files
+*.swp
+*.swo
+*~
