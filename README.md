@@ -59,16 +59,10 @@ brew install stow
 
 Clone the repository:
 
-```bash
-git clone git@github.com:YOUR_USERNAME/dotfiles.git ~/dotfiles
-```
-
-Replace `YOUR_USERNAME` with your GitHub username.
-
-If using HTTPS instead of SSH:
+HTTPS:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/DorianDasic/dotfiles.git ~/dotfiles
 ```
 
 Enter the repository:
