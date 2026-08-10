@@ -131,7 +131,7 @@ The result should point to a file inside:
 ~/dotfiles/
 ```
 
-## Adding a new configuration
+# Adding a new configuration
 
 ### 1. Create a package directory
 
@@ -145,7 +145,7 @@ mkdir -p example-app/.config
 ### 2. Copy the configuration
 
 ```bash
-cp -a ~/.config/example-app example-app/.config/
+mv ~/.config/example-app example-app/.config/
 ```
 
 The resulting structure should be:
@@ -190,7 +190,7 @@ For a file such as `~/.tmux.conf`:
 ```bash
 cd ~/dotfiles
 mkdir -p tmux
-cp ~/.tmux.conf tmux/
+mv ~/.tmux.conf tmux/
 ```
 
 Preview and apply it:
@@ -207,7 +207,7 @@ Because Stow creates symbolic links, edit the configuration normally.
 For example:
 
 ```bash
-nano ~/.config/nvim/init.lua
+nvim ~/.config/nvim/init.lua
 ```
 
 The change is made directly to the file inside the Git repository.
@@ -274,7 +274,7 @@ stow --delete --target="$HOME" nvim
 Then copy the files back from the repository:
 
 ```bash
-cp -a nvim/.config/nvim ~/.config/
+mv nvim/.config/nvim ~/.config/
 ```
 
 Only do this if you want regular files instead of symlinks.
