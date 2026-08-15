@@ -1,6 +1,11 @@
 # yazi.toml
 [opener]
-edit = [{ run = 'nvim "$@"', block = true }]
+edit = [{ run = 'nvim "$@"', block = true, desc = "Edit with Neovim" }]
+
+[open]
+rules = [
+    { mime = "text/*", use = "edit" }
+]
 
 [mgr]
 show_hidden = true
