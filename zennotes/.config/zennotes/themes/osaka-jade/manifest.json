@@ -1,0 +1,11 @@
+{
+  "name": "Osaka Jade",
+  "author": "Justikun (port)",
+  "version": "1.0.0",
+  "description": "Deep jade greens and warm sand — light + dark.",
+  "modes": "both",
+  "preview": {
+    "light": "#257e64",
+    "dark": "#71cead"
+  }
+}

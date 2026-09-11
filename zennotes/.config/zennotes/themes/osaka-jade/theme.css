@@ -1,0 +1,72 @@
+/* Osaka Jade — a ZenNotes theme.
+ *
+ * Ported from https://github.com/Justikun/omarchy-osaka-jade-theme (Justikun).
+ * Upstream is dark-only; the dark mode below uses its literal values, and the
+ * light mode is a daylight counterpart built from the same jade + warm-sand
+ * palette (#F6F5DD / #D6D5BC / #C1C497 grounds, deep #214237 jade ink).
+ *
+ * Only this file's CSS is active while the theme is selected, so :root is safe
+ * to use unscoped. Tokens are space-separated RGB triplets.
+ */
+
+:root {
+  color-scheme: light;
+  --z-bg: 243 242 226;
+  --z-bg-softer: 234 233 214;
+  --z-bg-1: 228 227 205;
+  --z-bg-2: 219 218 194;
+  --z-bg-3: 208 208 181;
+  --z-bg-4: 186 190 152;
+  --z-fg: 33 66 55;
+  --z-fg-1: 24 50 41;
+  --z-fg-2: 63 102 86;
+  --z-grey-2: 63 102 86;
+  --z-grey-1: 92 128 112;
+  --z-grey-0: 120 150 134;
+  --z-grey-dim: 158 175 155;
+  --z-accent: 37 126 100;
+  --z-accent-soft: 32 151 132;
+  --z-accent-muted: 92 146 130;
+  --z-red: 180 70 56;
+  --z-green: 64 130 87;
+  --z-yellow: 172 126 45;
+  --z-blue: 46 104 114;
+  --z-purple: 158 68 114;
+  --z-aqua: 27 138 119;
+  --z-shadow: 26 51 42;
+  --z-glass-a1: 0.62;
+  --z-glass-a2: 0.5;
+  --z-glass-a3: 0.35;
+  --z-glass-a4: 0.25;
+}
+
+:root[data-theme-mode="dark"] {
+  color-scheme: dark;
+  --z-bg: 17 28 24;
+  --z-bg-softer: 12 21 18;
+  --z-bg-1: 26 45 37;
+  --z-bg-2: 33 66 55;
+  --z-bg-3: 52 77 64;
+  --z-bg-4: 83 104 91;
+  --z-fg: 193 196 151;
+  --z-fg-1: 214 213 188;
+  --z-fg-2: 167 172 132;
+  --z-grey-2: 167 172 132;
+  --z-grey-1: 131 162 152;
+  --z-grey-0: 99 125 112;
+  --z-grey-dim: 83 104 91;
+  --z-accent: 113 206 173;
+  --z-accent-soft: 140 211 203;
+  --z-accent-muted: 129 184 168;
+  --z-red: 219 159 156;
+  --z-green: 99 176 122;
+  --z-yellow: 225 181 94;
+  --z-blue: 172 212 207;
+  --z-purple: 210 104 156;
+  --z-aqua: 45 213 183;
+  --z-shadow: 5 13 11;
+  --z-glass-a1: 0.6;
+  --z-glass-a2: 0.48;
+  --z-glass-a3: 0.34;
+  --z-glass-a4: 0.23;
+}

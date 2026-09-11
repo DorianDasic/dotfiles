@@ -1,0 +1,10 @@
+# Vaults and servers zn knows. `zn connect`, `zn vault add` and `zn use` edit it.
+default = "Sofascore"
+
+[[vault]]
+  name = "Private"
+  root = "/Users/doriandasic/Documents/Notes/brain-dumps/Private"
+
+[[vault]]
+  name = "Sofascore"
+  root = "/Users/doriandasic/Documents/Notes/brain-dumps/Sofascore"
